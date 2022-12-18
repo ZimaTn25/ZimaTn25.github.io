@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <title>Meu Primeiro Site Pessoal</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Playfair+Display:ital,wght@1,700&display=swap');
+            body{
+                font-family: 'Amatic SC', cursive;
+                font-style: bold;
+                font-size: 40px;
+                text-align: justify;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                background-color: #696969;
+            }
+            h1{
+                background-color: black;
+                color: #7FFF00;
+                padding: 10px;
+                text-align: center;
+                font-size: 50px;
+            }
+            img{
+                margin-top: 50px;
+                border-style: groove;
+                border-radius: 10px;
+                border-color: black;
+                
+            }
+            img:hover{
+                width: 260px;
+                height: 350px;
+                transition: 500ms linear;
+            }
+            a:link{
+                text-decoration: none;
+                color: black;
+            }
+            a:hover{
+                color: blue;
+            }
+            .subTitulos{
+                color:white;
+                background-color: black;
+                text-align: left;
+                padding: 5px;
+            }
+            #favoritos{
+                list-style-type: none;
+                background-image: url("imagens/controle.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                font-size:40px;
+                padding-bottom: 5px;
+            }
+            #seriesFav{
+                font-size: 40px;
+            }
+            .todos{
+                padding-top: 3px;
+                margin-top: 3px;
+            }
+            .todosPH{
+                padding: 10px;
+            }
+            .todosPH:hover{
+                background-color: white;
+                border-radius: 10px;
+                transition: 1s;
+            }
+            h3{
+                margin-top: 10px;
+            }
+            #contato{
+                background-color: black;
+                text-align: center;
+                padding: 5px;
+            }
+            #conth3{
+                color:aqua;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <h1>Meu Primeiro Site Pessoal</h1>
+                <div id="paragrafosPrincipais">
+                    <div class="todosPH">
+                        <p>
+                            Me chamo Joicimar Natalino de Oliveira Fernades dos Reis e atualmente estou com 24 anos de idade.
+                            Sou natural de <a href="https://pt.wikipedia.org/wiki/Vera_Cruz_do_Oeste" target="_blank">Vera Cruz do Oeste-PR</a>, mas até o dia de hoje 
+                            resido em <a href="https://pt.wikipedia.org/wiki/C%C3%A9u_Azul" target="_blank">Céu Azul-PR.</a>
+                        </p>
+            
+                        <p>
+                            Estou iniciando na área de desnvolvimento para <i>Web</i> e minhas expectativas iniciais
+                            estão sendo superadas, pois neste ramo as possibilidades são muitas. Até o momento estou 
+                            mais voltado a aprender e compreender sobre a criação de <i>sites</i> em sí, mas sinto despertar
+                            o meu interesse sobre área de desenvolvimento de jogos e aplicativos.
+                        </p>
+                    </div>
+                    <hr>
+                    <h2 class="subTitulos">Um pouco mais sobre mim</h2>
+                    <div class="todosPH">
+                        <p>Atualmente estou trabalhando como montador de móveis em uma loja e em meu tempo livre gosto de ficar com a minha família, brincar com minha filha e
+                            assistir a jogos de variados tipos. Gosto também de desfrutar de jogos tanto de celular quanto de console.
+                        </p>
+                        
+                        <p>
+                            Além disso, para relaxar e aproveitar os momentos de folga assisto alguns filmes e séries. As séries que mais gosto são:
+                        </p>
+                    </div>
+                    <ul id="series">
+                        <a target="_blank" href="https://pt.wikipedia.org/wiki/Brooklyn_Nine-Nine" button type="button" class="btn btn-dark btn-lg">Brooklyn Nine-Nine</button></a>
+                        <a target="_blank" href="https://pt.wikipedia.org/wiki/Modern_Family" button type="button" class="btn btn-dark btn-lg">Família Moderna</button></a>
+                        <a target="_blank" href="https://pt.wikipedia.org/wiki/Rick_and_Morty" button type="button" class="btn btn-dark btn-lg">Rick e Morty</button></a>
+                        <a target="_blank" href="https://www.netflix.com/br/title/80194704" button type="button" class="btn btn-dark btn-lg">Midas do Ferro Velho</button></a>
+                    </ul>
+                
+                </div>
+                <hr>
+                
+                <div id="jogos">
+                    <h2 id="jg" class="subTitulos">Sobre o meu interesse em jogos</h2>
+                    <div class="todosPH">
+                        <p>
+                            Desde pequeno sempre gostei de jogos de console e de celular, e a media em que fui crescendo
+                            esse interesse apenas aumentou. Meu primeiro vídeo game foi um <i>PlayStation 2</i> e
+                            possuo ele até os dias de hoje, pois este me rendeu muitas alegrias e boas lembranças. Já joguei muitos jogos bons,
+                            mas quero descobrir games novos e continuar desfrutando desta maravilha que é jogar vídeo game.
+                        </p>
+                    </div>
+                    <h3 id="jogosFav" class="subTitulos">Meus jogos favoritos:</h3>
+                    <ul id="favoritos">
+                        <li class="todos"><a target="_blank" href="https://www.playstation.com/pt-br/god-of-war/" button type="button" class="btn btn-secondary btn-lg">God Of War (todos da franquia)</button></a></li>
+                        <li class="todos"><a target="_blank" href="https://www.rockstargames.com/br/games/sanandreas" button type="button" class="btn btn-secondary btn-lg">GTA San Andreas</button></a></li>
+                        <li class="todos"><a target="_blank" href="https://www.rockstargames.com/br/gta-v" button type="button" class="btn btn-secondary btn-lg">GTA V</button></a></li>
+                        <li class="todos"><a target="_blank" href="https://www.playstation.com/pt-br/games/uncharted-legacy-of-thieves-collection/" button type="button" class="btn btn-secondary btn-lg">Uncharted</button></a></li>
+                        <li class="todos"><a target="_blank" href="https://clashroyale.com/pt/" button type="button" class="btn btn-secondary btn-lg">Clash Royale</button></a></li>
+                        <li class="todos"><a target="_blank" href="https://www.callofduty.com/br/pt/wwii" button type="button" class="btn btn-secondary btn-lg">Call Of Duty: WWII</button></a></li>
+                        <li class="todos"><a target="_blank" href="https://www.residentevil.com/re4/pt-br/" button type="button" class="btn btn-secondary btn-lg">Resident Evil 4</button></a></li>
+                        <li class="todos"><a target="_blank" href="https://pixelnerd.com.br/todos-os-jogos-da-saga-far-cry/" button type="button" class="btn btn-secondary btn-lg">Far Cry</button></a></li>
+                        <li class="todos"><a target="_blank" href="https://www.mortalkombat.com/" button type="button" class="btn btn-secondary btn-lg">Mortal Kombat</button></a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div id="contato">
+                    <h3 id="conth3">Contato</h3>
+                    <p id=cont><a href="mailto:joi_cl_oj@hotmail.com" button type="button" class="btn btn-outline-dark">joi_cl_oj@hotmail.com</button></a></p>
+                </div>
+              </div>
+              <div class="col-2">
+                <img src="imagens/zima.jpg" alt="joicimar" width="250" height="334">
+              </div>
+            </div>
+        <div class="container-fluid">
+            
+        </div>
+        
+    </body>
+</html>
